@@ -69,36 +69,36 @@ html,body{
 	position: absolute;
 	left: 83.3%;
 	top: 34.98%;
-	width: 0.76rem;
-	height: 6.07rem;
+	width: 7.6%;
+	height: 36.4%;
 	background: url(../images/page1-percent.png) 0 0 no-repeat;
-	background-size: cover;
-	animation: percent 3s steps(1, start); 
-	-webkit-animation: percent 3s steps(1, start);
+	background-size: 1000% 100%;
+	animation: percent 2s steps(1, start); 
+	-webkit-animation: percent 2s steps(1, start);
 	z-index: 3;
 }
 @keyframes percent{
-	10% {background-position: -6.84rem 0}	
-	20% {background-position: -6.08rem 0}
-	30% {background-position: -5.32rem 0}
-	40% {background-position: -4.56rem 0}
-	50% {background-position: -3.8rem 0}
-	60% {background-position: -3.04rem 0}
-	70% {background-position: -2.28rem 0}
-	80% {background-position: -1.52rem 0}
-	90% {background-position: -0.76rem 0}
+	10% {background-position: 99.99% 0}	
+	20% {background-position: 88.88% 0}
+	30% {background-position: 77.77% 0}
+	40% {background-position: 66.66% 0}
+	50% {background-position: 55.55% 0}
+	60% {background-position: 44.44% 0}
+	70% {background-position: 33.33% 0}
+	80% {background-position: 22.22% 0}
+	90% {background-position: 11.11% 0}
  	100% {background-position: 0 0}
 }
 @-webkit-keyframes percent{
-	10% {background-position: -6.84rem 0}
-	20% {background-position: -6.08rem 0}
-	30% {background-position: -5.32rem 0}
-	40% {background-position: -4.56rem 0}
-	50% {background-position: -3.8rem 0}
-	60% {background-position: -3.04rem 0}
-	70% {background-position: -2.28rem 0}
-	80% {background-position: -1.52rem 0}
-	90% {background-position: -0.76rem 0}
+	10% {background-position: 99.99% 0}	
+	20% {background-position: 88.88% 0}
+	30% {background-position: 77.77% 0}
+	40% {background-position: 66.66% 0}
+	50% {background-position: 55.55% 0}
+	60% {background-position: 44.44% 0}
+	70% {background-position: 33.33% 0}
+	80% {background-position: 22.22% 0}
+	90% {background-position: 11.11% 0}
  	100% {background-position: 0 0}
 }
 
@@ -146,12 +146,12 @@ html,body{
 }
 @keyframes bookmark2{
 	0% {transform:translate(0,0);}
-	50% {transform:translate(0,1.5rem);}
+	50% {transform:translate(0,3.5rem);}
 	100% {transform:translate(0,0);}
 }
 @-webkit-keyframes bookmark2{
 	0% {-webkit-transform:translate(0,0);}
-	50% {-webkit-transform:translate(0,1.5rem);}
+	50% {-webkit-transform:translate(0,3.5rem);}
 	100% {-webkit-transform:translate(0,0);}
 }
 
@@ -169,12 +169,12 @@ html,body{
 }
 @keyframes bookmark2-shadow{
 	0% {transform:translate(0,0);}
-	50% {transform:translate(0.05rem,1.44rem);}
+	50% {transform:translate(0.05rem,3.44rem);}
 	100% {transform:translate(0,0);}
 }
 @-webkit-keyframes bookmark2-shadow{
 	0% {-webkit-transform:translate(0,0);}
-	50% {-webkit-transform:translate(0.05rem,1.44rem);}
+	50% {-webkit-transform:translate(0.05rem,3.44rem);}
 	100% {-webkit-transform:translate(0,0);}
 }
 
@@ -311,11 +311,11 @@ html,body{
 }
 @keyframes page5-fireworks{
 	0% {
-		transform:translate(0.6rem,0.6rem);
+		transform:translate(1.6rem,1.6rem);
 		opacity: 0;
 	}
 	50% {
-		transform:translate(0.3rem,0.3rem);
+		transform:translate(0.8rem,0.8rem);
 		opacity: 1;
 	}
 	100% {
@@ -325,11 +325,11 @@ html,body{
 }
 @-webkit-keyframes page5-fireworks{
 	0% {
-		-webkit-transform:translate(0.6rem,0.6rem);
+		-webkit-transform:translate(1.6rem,1.6rem);
 		opacity: 0;
 	}
 	50% {
-		-webkit-transform:translate(0.3rem,0.3rem);
+		-webkit-transform:translate(0.8rem,0.8rem);
 		opacity: 1;
 	}
 	100% {
@@ -359,7 +359,7 @@ html,body{
 	}
 	100% {
 		transform:scale(1.2);
-		transform:translate(-0.2rem,-0.8rem);
+		transform:translate(-0.8rem,-1.8rem);
 		opacity: 0;
 	}
 }
@@ -370,7 +370,7 @@ html,body{
 	}
 	100% {
 		-webkit-transform:scale(1.2);
-		-webkit-transform:translate(-0.2rem,-0.8rem);
+		-webkit-transform:translate(-0.8rem,-1.8rem);
 		opacity: 0;
 	}
 }
@@ -390,7 +390,7 @@ html,body{
 @keyframes page6-people{
 	0% {
 		transform:scale(0.8);
-		transform:translate(0.2rem,0.8rem);
+		transform:translate(1.2rem,1.8rem);
 		opacity: 0;
 	}
 	100% {
@@ -402,7 +402,7 @@ html,body{
 @-webkit-keyframes page6-people{
 	0% {
 		-webkit-transform:scale(0.8);
-		-webkit-transform:translate(0.2rem,0.8rem);
+		-webkit-transform:translate(1.2rem,1.8rem);
 		opacity: 0;
 	}
 	100% {
@@ -435,7 +435,7 @@ html,body{
 @keyframes page6-shadow2{
 	0% {
 		transform:scale(0.8);
-		transform:translate(0.2rem,0.8rem);
+		transform:translate(1.2rem,1.8rem);
 		opacity: 0;
 	}
 	100% {
@@ -447,7 +447,7 @@ html,body{
 @-webkit-keyframes page6-shadow2{
 	0% {
 		-webkit-transform:scale(0.8);
-		-webkit-transform:translate(0.2rem,0.8rem);
+		-webkit-transform:translate(1.2rem,1.8rem);
 		opacity: 0;
 	}
 	100% {
@@ -520,25 +520,25 @@ html,body{
 }
 @keyframes page8-photo1{
 	0% {
-		transform: translate(1rem,0);
+		transform: translate(2rem,0);
 	}
 	50%{
 		opacity: 1;
 	}
 	100% {
-		transform: translate(-3rem,-6rem) rotate(-50deg);
+		transform: translate(-6rem,-12rem) rotate(-50deg);
 		opacity: 0;
 	}
 }
 @-webkit-keyframes page8-photo1{
 	0% {
-		-webkit-transform: translate(1rem,0);
+		-webkit-transform: translate(2rem,0);
 	}
 	50%{
 		opacity: 1;
 	}
 	100% {
-		-webkit-transform: translate(-3rem,-6rem) rotate(-50deg);
+		-webkit-transform: translate(-6rem,-12rem) rotate(-50deg);
 		opacity: 0;
 	}
 }
@@ -563,7 +563,7 @@ html,body{
 		opacity: 1;
 	}
 	100% {
-		transform: translate(-1.5rem,-9rem) rotate(-20deg);
+		transform: translate(-3rem,-18rem) rotate(-20deg);
 		opacity: 0;
 	}
 }
@@ -575,7 +575,7 @@ html,body{
 		opacity: 1;
 	}
 	100% {
-		-webkit-transform: translate(-1.5rem,-9rem) rotate(-20deg);
+		-webkit-transform: translate(-3rem,-18rem) rotate(-20deg);
 		opacity: 0;
 	}
 }
@@ -599,7 +599,7 @@ html,body{
 		opacity: 1;
 	}
 	100% {
-		transform: translate(-1rem,-5rem) rotate(-50deg);
+		transform: translate(-2rem,-10rem) rotate(-50deg);
 		opacity: 0;
 	}
 }
@@ -611,7 +611,7 @@ html,body{
 		opacity: 1;
 	}
 	100% {
-		-webkit-transform: translate(-1rem,-5rem) rotate(-50deg);
+		-webkit-transform: translate(-2rem,-10rem) rotate(-50deg);
 		opacity: 0;
 	}
 }
