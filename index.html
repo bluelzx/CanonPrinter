@@ -2,75 +2,113 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta content="yes" name="apple-mobile-web-app-capable" />
-  <meta content="yes" name="apple-touch-fullscreen" />
   <meta content="telephone=no,email=no" name="format-detection" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<!-- <meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> -->
 	<!-- UC强制全屏 -->
 	<meta name="full-screen" content="yes">
 	<!-- QQ强制全屏 -->
 	<meta name="x5-fullscreen" content="true">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui">
+	<!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui"> -->
 	<meta name="screen-orientation"content="portrait">
 	<meta name="x5-orientation"content="portrait">
 	<meta http-equiv="pragma" content="no-cache">
 	<title>canon</title>
 	<script type="text/javascript" src="js/zepto.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 
-
 </head>
-<body>
-	<div class="page page1 hide" id="page1">
+<body class="hide">
+	<div class="page page1" id="page1">
 		<div class="page1-printer">
 			<div class="page1-printer-percent"></div>
+			<div class="page1-title">相册加载中</div>
 			<div class="page1-printer-top"></div>
 			<div class="page1-printer-photo"></div>
-			<div class="page1-printer-bottom"></div>
 		</div>
 	</div>
-	<div class="page page2 hide" id="page2">
-		<div class="page2-book">
-			<div class="page2-book-photo"></div>
-			<div class="page2-book-bookmark1"></div>
-			<div class="page2-book-bookmark2" id="bookmark"></div>
-			<div class="page2-book-bookmark2-shadow"></div>
-		</div>
+	<div class="page page2" id="page2">
+		<div class="">用相片 记录爱 妆点爱</div>
+		<div class="" id="bookmark"></div>
+		<!-- <div class="page2-click-hint"></div> -->
 	</div>
-	<div class="page page3 hide" id="page3">
-		<div class="page3-star-box" id="page3-star">
-			<div class="page3-star"></div>
-		</div>
-		
+	<div class="page page3" id="page3">
+		<!-- <div class="page3-star-box" id="page3-star"> -->
+		<div class="" id="page3-star"></div>
+		<!-- </div> -->
+		<!-- <div class="page3-click-hint"></div> -->
 	</div>
-	<div class="page page4 hide" id="page4">
-		<div class="page4-star"></div>
+	<div class="page page4" id="page4">
+		<div class=""></div>
+		<div class="">爱上了你<br/>让我看到不一样的自己和世界</div>
 	</div>
-	<div class="page page5 hide" id="page5">
-		<div class="page5-shadow"></div>
-		<div class="page5-people"></div>
-		<div class="page5-heart"></div>
-		<div class="page5-fireworks"></div>
+	<div class="page page5" id="page5">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div>你说“我愿意”<br/>那一刻我心跳不停，决心让你一直幸福</div>
 	</div>
-	<div class="page page6 hide" id="page6">
-		<div class="page6-shadow"></div>
-		<div class="page6-people"></div>
-		<div class="page6-shadow2"></div>
-		<div class="page6-flower"></div>
+	<div class="page page6" id="page6">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div>大手牵小手<br/>每个瞬间我们仨一起经历，一起成长</div>
+		<!-- <div class="page6-flower"></div> -->
 	</div>
-	<div class="page page7 hide" id="page7">
-		<div class="page7-tree"></div>
-		<div class="page7-people"></div>
+	<div class="page page7" id="page7">
+		<div></div>
+		<div></div>
+		<div>上有老下有小<br/>有一个充满爱的家，我真的知足</div>
 	</div>
 	<div class="page page8" id="page8">
-		<div class="page8-photo1"></div>
-		<div class="page8-photo2"></div>
-		<div class="page8-photo3"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div>爱常在，不要错过</div>
 	</div>
-	<script src="js/app.js"></script>   
+	<div class="page page9 " id="page9">
+		<div id="page9Book"></div>
+		<div>现在开始<br/>记录爱，妆点生活</div>
+		<div></div>
+	</div>
+	<div class="page page10 hide" id="page10">
+		<div class="page10-title">选择上传一张照片体验打印的乐趣吧！<br/>更有精美礼品等着你！</div>
+		<div class="page10-btn">
+			拍照或从相册选择
+			<input type="file" name="mfile" id="sPhoto"  accept="image/*;capture=camera" />
+		</div>
+		<div class="page10-printer">
+			<img src="./images/page10-pointer.png" alt="">
+		</div>
+		<div class="page10-photo">
+			<canvas id="page10Canvas"></canvas>
+		</div>
+		<div class="page10-tip">获奖规则</div>
+		<div class="page10-tip-box">
+			<!-- <div class="page10-tip-bg"> -->
+			<div class="page10-tip-close"></div>
+			<!-- </div> -->
+			<div class="page10-tip-text">
+				1.活动时间:10.16—10.23（获奖公布时间10.26）。<br/>2.评奖规则:在所有分享H5页面的用户中随机抽取10名。<br/>3.公布平台:佳能官方微信订阅号。<br/>4.礼品详情获奖网友将获得精美相册一本，以及丰富相册装饰物。
+			</div>
+		</div>
+	</div>
+	<div class="page page11 hide" id="page11">
+		<div class="canvas-box">
+			<div class="page11-photo">
+				<canvas id="page11Canvas"></canvas>
+			</div>
+		</div>
+		<div class="page11-title">分享我的记忆相册至朋友圈<br/>有机会获得惊喜礼品</div>
+	</div>
+	<audio preload="auto" loop="loop" id="mySound">
+		<source src="bgsound.ogg" type="audio/ogg">
+		<source src="bgsound.mp3" type="audio/mpeg">
+	</audio>
+  <script src="js/app.js"></script>
 </body>
 </html>
